@@ -3,5 +3,5 @@ language: c
 
 sudo: required
 compiler:
-	-gcc
+    -gcc
 script: make dep && make && make test
