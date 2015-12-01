@@ -1,7 +1,7 @@
-install: make get-deps
-./configure && make && make test
 language: c
-script: scons
-compiler: 
-	-clang
+
+
+sudo: required
+compiler:
 	-gcc
+script: make dep && make && make test
