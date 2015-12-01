@@ -1,0 +1,4 @@
+check.h no such file or directory in geometry_test.c
+did make dep
+
+no failures
